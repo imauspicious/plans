@@ -111,6 +111,7 @@ body{
     text-align: center;
     flex: 1;
     height: 550px;
+    padding: 10px;
 }
 
 .plans{
