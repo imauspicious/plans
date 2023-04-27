@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'sono',sans-serif;
+    background: linear-gradient(90deg, rgba(106,167,239,1) 6%, rgba(174,153,231,1) 39%, rgba(178,152,231,1) 59%, rgba(222,143,226,1) 77%);
+}
+
+.heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 40px;
+    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.407);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+    gap: 2em;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.pricing-items{
+    background: linear-gradient(90deg, rgba(211,106,239,1) 6%, rgba(194,113,231,1) 39%, rgba(170,117,215,1) 59%, rgba(137,133,241,1) 77%);
+    border-radius: 10px;
+    box-shadow: 4px 7px 9px rgba(0, 0, 0, 0.207);
+    text-align: center;
+    flex: 1;
+    height: 550px;
+}
+
+.plans{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 40px auto;
+}
+
+.plan-pricing{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 20px auto;
+}
+
+.plan-items{
+      list-style-type: none;
+      font-size: 20px;
+      font-weight: 400;
+}
+
+.plan-items li{
+    margin: 5px auto;
+}
+
+.signup-btn{
+    width: 110px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 4px 7px 9px rgba(0, 0, 0, 0.207);
+    background-color: antiquewhite;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'sono',sans-serif;
+    margin: 40px auto;
+}
+
+@media (max-width: 480px) {
+    
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'sono',sans-serif;
+    background: linear-gradient(90deg, rgba(106,167,239,1) 6%, rgba(174,153,231,1) 39%, rgba(178,152,231,1) 59%, rgba(222,143,226,1) 77%);
+}
+
+.heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 40px auto;
+    text-shadow: 4px 2px 3px rgba(0, 0, 0, 0.407);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+    gap: 2em;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.pricing-items{
+    background: linear-gradient(90deg, rgba(211,106,239,1) 6%, rgba(194,113,231,1) 39%, rgba(170,117,215,1) 59%, rgba(137,133,241,1) 77%);
+    border-radius: 10px;
+    box-shadow: 4px 7px 9px rgba(0, 0, 0, 0.207);
+    text-align: center;
+    flex: 1;
+    height: 550px;
+}
+
+.plans{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 40px auto;
+}
+
+.plan-pricing{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 20px auto;
+}
+
+.plan-items{
+      list-style-type: none;
+      font-size: 20px;
+      font-weight: 400;
+}
+
+.plan-items li{
+    margin: 5px auto;
+}
+
+.signup-btn{
+    width: 110px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 4px 7px 9px rgba(0, 0, 0, 0.207);
+    background-color: antiquewhite;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'sono',sans-serif;
+    margin: 40px auto;
+}
+
+}
+
